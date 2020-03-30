@@ -2,10 +2,13 @@
 This project aims to determine whether or not a yellow taxi driver would get a good tip.
 The data contains information such as the trip's duration, distance, pickup and dropoff locations, etc. The data used can be found in the April 2019 dataset from https://www1.nyc.gov/site/tlc/about/tlc-trip-record-data.page
 
+<br>
+
 - [Project Goal](#ProjGoal)
 - [Number of Good Tips](#NumberGood)
 - [The Model](#BestModel)
 - [Takeaways](#Takeaway)
+
 <br>
 
 ## Project Goal <a name = 'ProjGoal'></a>
