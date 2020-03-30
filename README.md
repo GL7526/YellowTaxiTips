@@ -36,8 +36,7 @@ The feature that provides the most information is the trip's total cost. Below s
 <img src = "graphs/tip_well_vs_total.png" width = 550>
 <br>
 We can see that there is something like a cut off of almost $4 until yellow taxi drivers even get a good tip. 
-
-<br><br>
+<br>
 
 ### Trip Duration
 <img src = "graphs/goodtip_per_duration.png" width = 550>
