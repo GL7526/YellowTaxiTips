@@ -37,6 +37,7 @@ We see that features such as the trip's total cost, duration, and distance are i
 The feature that provides the most information is the trip's total cost. Below shows a scatterplot of the total price categorized by whether the tip was good or not:
 <br>
 <img src = "graphs/tip_well_vs_total.png" width = 550>
+<br>
 We can see that there is something like a cut off of almost $4 until yellow taxi drivers even get a good tip. 
 
 <br><br>
