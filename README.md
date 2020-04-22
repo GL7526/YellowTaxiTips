@@ -18,7 +18,9 @@ The purpose of this project is to predict whether a yellow taxi driver would get
 
 ## How Many Tips Are Good Tips? <a name = 'NumberGood'></a>
 
-<center><img src='graphs/dist_of_good_bad_tips.png' width = 550></center>
+<p align = "center">
+  <img src='graphs/dist_of_good_bad_tips.png' width = 550>
+</p>
 One important piece of information is the number of tips that are considered "good" in the data. The bar graph above shows us that there are fewer tips that are good than not. Although there isn't much class imbalance, upsampling was used so that the models would not be biased to choose the majority class (not good tip) more often than it should.
 <br>
 <br>
@@ -29,25 +31,33 @@ The models that were run were logistic regressions with L1 and then L2 regulariz
 <br>
 The random forest model can also tell us which features would give us the most information. This is done by determining which features were used the most in the decision trees when splitting the data. A graph displaying feature importance can be seen below:
 <br>
-<img src = "graphs/feature%20importance%20chart.PNG" width = 550>
+<p align = "center">
+  <img src = "graphs/feature%20importance%20chart.PNG" width = 550>
+</p>
 <br>
 We see that features such as the trip's total cost, duration, and distance are important features. However, what this doesn't tell us is how these features are important. Does a longer or shorter trip usually result in a good tip? Do yellow taxi drivers usually get a good tip when the total cost of the ride is higher or lower? In order to answer this, we need to look back at the data.
 
 ## Distribution Of Features To Amount Of Good Tips
 The feature that provides the most information is the trip's total cost. Below shows a scatterplot of the total price categorized by whether the tip was good or not:
 <br>
-<img src = "graphs/tip_well_vs_total.png" width = 550>
+<p align = "center">
+  <img src = "graphs/tip_well_vs_total.png" width = 550>
+</p>
 <br>
 We can see that there is something like a cut off of almost $4 until yellow taxi drivers even get a good tip. 
 <br>
 
 ### Trip Duration
-<img src = "graphs/goodtip_per_duration.png" width = 550>
+<p align = "center">
+  <img src = "graphs/goodtip_per_duration.png" width = 550>
+</p>
 <br>
 For trip duration, the amount of tips that are good seem to decrease as trip duration increases. This kind of shows us that yellow taxi drivers have a higher chance of getting a good tip if the trip is fast. This may be because the passenger would be less likely to give a good tip if the trip is so long that they're going to be late.
 
 ### Trip Distance
-<img src = "graphs/dist%20of%20distance%20for%20good%20tips.png" width = 550>
+<p align = "center">
+  <img src = "graphs/dist%20of%20distance%20for%20good%20tips.png" width = 550>
+</p>
 <br>
 For trip distance, there proportion of tips that are good tips go up and then go down. This might show that if the trip is too short, such as a couple of blocks, then the passenger is less likely to give a good tip.
 
