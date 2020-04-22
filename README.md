@@ -31,7 +31,7 @@ The random forest model can also tell us which features would give us the most i
 <br>
 <img src = "graphs/feature%20importance%20chart.PNG" width = 550>
 <br>
-We see that features such as the trip's total cost, duration, and distance are important features. However, what this doesn't tell us how these features are important. Does a longer or shorter trip usually result in a good tip? Do yellow taxi drivers usually get a good tip when the total cost of the ride is higher or lower? In order to answer this, we need to look back at the data.
+We see that features such as the trip's total cost, duration, and distance are important features. However, what this doesn't tell us is how these features are important. Does a longer or shorter trip usually result in a good tip? Do yellow taxi drivers usually get a good tip when the total cost of the ride is higher or lower? In order to answer this, we need to look back at the data.
 
 ## Distribution Of Features To Amount Of Good Tips
 The feature that provides the most information is the trip's total cost. Below shows a scatterplot of the total price categorized by whether the tip was good or not:
