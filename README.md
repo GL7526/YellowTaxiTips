@@ -9,7 +9,6 @@ The data contains information such as the trip's duration, distance, pickup and 
 - [Number of Good Tips](#NumberGood)
 - [The Model](#BestModel)
 
-
 <br>
 
 ## Project Goal <a name = 'ProjGoal'></a>
