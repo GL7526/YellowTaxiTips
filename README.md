@@ -5,14 +5,21 @@ The data contains information such as the trip's duration, distance, pickup and 
 <br>
 
 - [Project Goal](#ProjGoal)
+- [Takeaways](#Takeaway)
 - [Number of Good Tips](#NumberGood)
 - [The Model](#BestModel)
-- [Takeaways](#Takeaway)
+
 
 <br>
 
 ## Project Goal <a name = 'ProjGoal'></a>
 The purpose of this project is to predict whether a yellow taxi driver would get a good tip or not. A good tip is determined as at least 25% of the base fare amount.
+<br>
+<br>
+
+## Takeaways <a name = "Takeaway"></a>
+The data tells us that to get a good tip, drivers should avoid trips that are too short, such as a couple of blocks, and should avoid traffic to make the trip as fast as possible. Although yellow taxi drivers probably can't decline passengers, this data can still be used for drivers who work under companies such as Uber or Lyft, where they can decline rides.
+One might also think that some information such as the trip duration and total cost of the trip can't be found until the ride is over, but this information can be estimated from wherever the passenger selects the location they want to go to. An experienced driver might be able to estimate it on the spot pretty fast. <!-- an even better idea is to integrate these calculations in the app or something and recommend/prioritize which passengers to take for each active driver -->
 <br>
 <br>
 
@@ -61,6 +68,3 @@ For trip duration, the amount of tips that are good seem to decrease as trip dur
 <br>
 For trip distance, there proportion of tips that are good tips go up and then go down. This might show that if the trip is too short, such as a couple of blocks, then the passenger is less likely to give a good tip.
 
-## Takeaways <a name = "Takeaway"></a>
-The data tells us that to get a good tip, drivers should avoid trips that are too short, such as a couple of blocks, and should avoid traffic to make the trip as fast as possible. Although yellow taxi drivers probably can't decline passengers, this data can still be used for drivers who work under companies such as Uber or Lyft, where they can decline rides.
-One might also think that some information such as the trip duration and total cost of the trip can't be found until the ride is over, but this information can be estimated from wherever the passenger selects the location they want to go to. An experienced driver might be able to estimate it on the spot pretty fast. <!-- an even better idea is to integrate these calculations in the app or something and recommend/prioritize which passengers to take for each active driver -->
