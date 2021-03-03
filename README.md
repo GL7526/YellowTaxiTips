@@ -13,6 +13,7 @@ The data contains information such as the trip's duration, distance, pickup and 
 
 ## Project Goal <a name = 'ProjGoal'></a>
 The purpose of this project is to predict whether a yellow taxi driver would get a good tip or not. A good tip is determined as at least 25% of the base fare amount.
+<!-- add why i got into the project -->
 <br>
 <br>
 
